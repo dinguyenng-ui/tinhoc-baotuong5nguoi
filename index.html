@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Tường Ngoại Khóa</title>
+    <style>
+        body {
+            background-color: #fff5f7; /* Nền hồng siêu nhạt */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Khung báo bự hơn (850px) */
+        .bao-tuong {
+            max-width: 800px; 
+            margin: 0 auto;
+            background-color: white;
+            border: 2px solid #ffb6c1;
+        }
+
+        /* Header có màu hồng rõ rệt */
+        .header {
+            background-color: #ffc0cb;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 3px solid #dd73a8;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #f03278;
+            font-size: 32px;
+        }
+
+        /* Nội dung ở giữa */
+        .content {
+            padding: 30px;
+        }
+
+        .muc-lon {
+            margin-bottom: 30px;
+        }
+
+        .tieu-de-muc {
+            color: #ed2a78;
+           
+            padding-left: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* Bố cục 4 ảnh (2 hàng - 2 cột) */
+        .khung-anh {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Chia làm 2 cột */
+            gap: 15px; /* Khoảng cách giữa các ảnh */
+            margin-top: 15px;
+        }
+
+        .khung-anh img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Để ảnh không bị móp */
+            border: 3px solid #eee;
+        }
+
+        video, audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* Phần bình luận */
+        .form-comment {
+            background-color: #fff0f5;
+            padding: 20px;
+            
+        }
+
+        input, textarea {
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .btn-gui {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Footer có màu hồng */
+        .footer {
+            background-color: #fac6cf;
+            padding: 20px;
+            text-align: center;
+            color: #d03c8b;
+            border-top: 3px solid #f373b3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bao-tuong">
+        
+        <div class="header">
+            <h1>HOẠT ĐỘNG NGOẠI KHÓA</h1>
+            <h3 style="color:lightcoral">TRỒNG CÂY - LÀM SẠCH KHUÔN VIÊN</h3>
+        </div>
+
+        <div class="content">
+            
+            <div class="muc-lon">
+                <div class="tieu-de-muc">🌱Ý nghĩa hoạt động</div>
+                <p>
+1. Cảm xúc hoạt động
+Hoạt động ngoại khóa trồng cây và làm sạch khuôn viên trường đã mang đến cho chúng em nhiều trải nghiệm ý nghĩa. Mỗi chúng em đều tích cực tham gia quét dọn sân trường, nhặt rác và trồng cây xanh. Không khí lao động vui tươi, đoàn kết giúp chúng em thêm yêu mái trường và nâng cao ý thức bảo vệ môi trường.</p>
+
+<p>2. Gieo mầm xanh
+Mỗi cây xanh được trồng hôm nay là một mầm xanh cho tương lai. Chúng em mong muốn ngôi trường luôn xanh – sạch – đẹp, là nơi học tập trong lành và thân thiện. Từ những hành động nhỏ, chúng em hiểu rằng bảo vệ môi trường là trách nhiệm của mỗi học sinh.        </p>
+            </div>
+
+            <div class="muc-lon">
+                <div class="tieu-de-muc">🌱Hình ảnh</div>
+                <div class="khung-anh">
+                    <img src="img/tr.jpg" alt="Ảnh 1">
+                    <img src="img/cay.jpg" alt="Ảnh 2">
+                    <img src="img/lop.jpg" alt="Ảnh 3">
+                    <img src="img/nhom.jpg" alt="Ảnh 4">
+                </div>
+            </div>
+
+            <div class="muc-lon">
+                <div class="tieu-de-muc">🌱Video</div>
+                
+                <video controls>
+                    <source src="img/vd.mp4" type="video/mp4">
+                </video>
+                <div class="tieu-de-muc">🌱Audio</div>
+                <audio controls>
+                    <source src="img/snaptt.me-7236857.m4a" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="muc-lon">
+                <div class="tieu-de-muc">🌱 Góc đóng góp ý kiến</div>
+                <div class="form-comment">
+                    <input type="text" placeholder="Họ và tên...">
+                    <textarea rows="3" placeholder="Lời nhắn của bạn..."></textarea>
+                    <button class="btn-gui">GỬI</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+           LỚP 12A3 <br>
+            Thực hiện bởi
+           <h5>NGUYỄN THỊ DIỄM KIỀU</h5>
+           <h5>TRẦN NGỌC TUYỀN</h5>
+           <h5>NGUYỄN THỊ KHÁNH VY</h5>
+           <h5>NGUYỄN NGÔ CẨM NGÂN</h5>
+           <h5>DƯƠNG THỊ KIỀU MI</h5>
+        </div>
+
+    </div>
+
+</body>
+</html>
